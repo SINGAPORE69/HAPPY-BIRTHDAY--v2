@@ -3049,7 +3049,7 @@
             // Add header
             doc.setFontSize(20);
             doc.setTextColor(40, 53, 147);
-            doc.text('EAGLE-UNIT & DIMENSION - RESULTS', 105, 20, { align: 'center' });
+            doc.text('KINEMATICS - RESULTS', 105, 20, { align: 'center' });
             
             doc.setFontSize(14);
             doc.setTextColor(128, 128, 128);
@@ -3138,12 +3138,12 @@
                 doc.setPage(i);
                 doc.setFontSize(8);
                 doc.setTextColor(100, 100, 100);
-                doc.text('Test Provided By: @RAJHARSH77 t.me/RAJHARSH77', 105, 290, { align: 'center' });
+                doc.text('Test Provided By NEET PHYSICS KOTA', 105, 290, { align: 'center' });
                 doc.text(`Page ${i} of ${pageCount}`, 195, 290, { align: 'right' });
             }
             
             // Save the PDF
-            doc.save(`NLM_Test_Results_${userName.replace(/\s+/g, '_')}.pdf`);
+            doc.save(`KINEMATICS_Test_Results_${userName.replace(/\s+/g, '_')}.pdf`);
             
             showToast('PDF report downloaded successfully!', 'success');
         }
