@@ -2923,7 +2923,7 @@
             let correctCount = 0;
             let incorrectCount = 0;
             let unattemptedCount = 0;
-            let totalMarks = 308;
+            let totalMarks = 180;
             
             questions.forEach((q, index) => {
                 const userAns = answers[q.id];
@@ -3080,7 +3080,7 @@
             const accuracy = document.getElementById('accuracy-value').textContent;
             const timeTaken = document.getElementById('time-taken').textContent;
             
-            doc.text(`Total Score: ${score} / 308`, 20, 60);
+            doc.text(`Total Score: ${score} / 180`, 20, 60);
             doc.text(`Correct Answers: ${correct}`, 20, 67);
             doc.text(`Incorrect Answers: ${incorrect}`, 20, 74);
             doc.text(`Attempted Questions: ${attempted} / ${questions.length}`, 20, 81);
